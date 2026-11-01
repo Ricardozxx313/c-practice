@@ -5,5 +5,6 @@ int main(void)
     printf("请输入摄氏度:");
     scanf("%lf", &celsius);
     fahrenheit = celsius * (9.0 / 5.0) + 32;
-    printf("华摄氏度为%.1f", fahrenheit);
+    printf("华氏度为%.1f", fahrenheit);
+    return 0;
 }
